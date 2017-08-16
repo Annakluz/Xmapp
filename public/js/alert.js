@@ -1,4 +1,3 @@
-$("#reservation-modal").click(()=>{
-    alert("Operación Exitosa, porfavor revisa tu correo");
-});
-
+jQuery("#reservation-modal").on('click', function() {
+        UIkit.notification($(this).data());
+    });

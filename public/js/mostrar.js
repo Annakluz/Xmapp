@@ -1,7 +1,7 @@
-var cargarPagina = function () {    
+var cargarPagina = function () {
     mastraEvnetoF();
     obtenerEventos();
-    $("#mostrar-busqueda").click(searEvent);      
+    $("#mostrar-busqueda").click(searEvent);
 };
 var eventos = [];
 var plantillaEvent =
@@ -68,7 +68,7 @@ var mastraEvnetoF = function () {
 };
 
 function searEvent() {
-    mostrarEvent(eventos);  
+    mostrarEvent(eventos);
 }
 
 
